@@ -2,7 +2,7 @@ let bandera = true
 let buscar = document.getElementById("buscar")
 let boton = document.getElementById("boton")
 
-boton.addEventListener("click", function(event) {
+boton.addEventListener ("click", function(event) {
     event.preventDefault()
 
     if (bandera==true) {
@@ -25,3 +25,9 @@ let producto = {
 }
 console.log(producto)
 console.log(producto.nombre)
+
+let productos = Array
+console.log (productos)
+productos.forEach(function(producto){
+console.log(producto)
+})
